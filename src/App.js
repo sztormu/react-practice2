@@ -19,10 +19,10 @@ const App = () => {
   }
 
   return (
-    <Wrapper>
+    <>
       <AddUser addingUser={addingUserHandler} />
       <UsersList data={users} />
-    </Wrapper>
+    </>
   );
 }
 
